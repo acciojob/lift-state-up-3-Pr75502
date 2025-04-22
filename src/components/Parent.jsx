@@ -9,7 +9,7 @@ function Parent() {
         setText(buttonText)
     }
     return (
-        <div>
+        <div className="parent">
             <h1>Parent Component</h1>
             <Child1
                 handleClick={handleClick}
